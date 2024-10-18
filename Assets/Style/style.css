@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ul{
+  list-style: none;
+}
+
 main{
   border: 1px solid black;
 }
@@ -52,7 +56,6 @@ header{
 
 .row .column ul{
   display: flex;
-  list-style: none;
 }
 
 .header-top .navbar .row ul a{
@@ -76,6 +79,10 @@ main .feature .text{
   width: 45%;
 }
 
+main .feature .image{
+  width: 50%;
+}
+
 main .gray{
   background-color: lightgray;
   
@@ -88,5 +95,25 @@ section.feature.gray.cta{
 section.feature.gray.cta .row{
   justify-content: center;
   padding-bottom: 30px;
+}
+
+footer{
+  padding: 0 120px;
+  background-color: darkgray;
+}
+
+footer .footer-top{
+  display: flex;
+  padding: 20px;
+
+}
+
+footer .footer-top .container.link{
+  width: 15%;
+  padding: 20px;
+}
+
+footer .footer-top .container.social{
+  width: 30%;
 }
 
