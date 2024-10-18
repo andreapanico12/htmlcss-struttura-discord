@@ -117,3 +117,10 @@ footer .footer-top .container.social{
   width: 30%;
 }
 
+footer .footer-bottom{
+  display: flex;
+}
+
+footer .footer-bottom .container.navbar .row{
+  justify-content: space-between;
+}
