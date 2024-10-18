@@ -26,6 +26,7 @@ header{
 .row{
   display: flex;
   padding: 10px 0;
+  border: 1px solid green;
 }
 
 .header-top .navbar .row{
@@ -33,6 +34,16 @@ header{
   justify-content: space-between;
 }
 
+.row .column{
+  border: 1px solid black;
+  padding: auto;
+  margin: auto;
+
+}
+.header-bottom .description{
+  text-align: center;
+  padding: 80px;
+}
 
 .row .column ul{
   display: flex;
@@ -41,4 +52,9 @@ header{
 
 .header-top .navbar .row ul a{
   padding: 0 15px;
+
 }
+.header-bottom .description .title{
+  justify-content: center;
+}
+
