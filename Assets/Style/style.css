@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+main{
+  height: 1000px;
+  border: 1px solid black;
+}
+
 header{
   background-color: rgba(255,0,0,.2);
   border: 1px solid black;
@@ -42,7 +47,8 @@ header{
 }
 .header-bottom .description{
   text-align: center;
-  padding: 80px;
+  padding: 80px 150px;
+
 }
 
 .row .column ul{
@@ -54,7 +60,18 @@ header{
   padding: 0 15px;
 
 }
+
+
 .header-bottom .description .title{
   justify-content: center;
 }
 
+.feature{
+  display: flex;
+  margin: auto;
+  padding: 60px;
+}
+
+.container .image{
+  height: 80px;
+}
