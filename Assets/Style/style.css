@@ -68,7 +68,8 @@ header{
 .feature{
   display: flex;
   margin: auto;
-  padding: 60px;
+  padding: 80px 120px;
+  justify-content: center;
 }
 
 main .feature .text{
@@ -80,6 +81,12 @@ main .gray{
   
 }
 
-main .feature .cta{
-  
+section.feature.gray.cta{
+  flex-direction: column;
 }
+
+section.feature.gray.cta .row{
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
